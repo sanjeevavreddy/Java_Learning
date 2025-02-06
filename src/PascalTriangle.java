@@ -1,16 +1,20 @@
+import java.util.ArrayList;
+import java.util.List;
 
 public class PascalTriangle {
 
-    public static void generate(int numRows) {
-        int arr[] = {1};
-        for (int i = 0; i < numRows-1; i++) {
+    public static List<List<Integer>> generate(int numRows) {
+        int[] arr = {1};
+        List <List<Integer>> result = new ArrayList<List<Integer>>();
+        for (int i = 0; i < numRows; i++) {
+            List<Integer> res = new ArrayList<Integer>();
             for (int a : arr) {
-                System.out.print(a);System.out.print(" ");
-
+                    res.add(a);
             }
-            System.out.println();
+            result.add(res);
             arr = nextLineInPascal(arr);
         }
+        return result;
     }
 
     public static int[] nextLineInPascal(int[] array) {
@@ -30,7 +34,7 @@ public class PascalTriangle {
 
     public static void main(String[] args) {
 
-        generate(4);
+        System.out.println(generate(4));
     }
 
 }
