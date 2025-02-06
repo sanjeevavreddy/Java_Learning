@@ -66,7 +66,7 @@ public class EA_TEST {
                 }
 
             }
-            if(flag==true)
+            if(flag)
             {
                 System.out.println(S.charAt(i));
             }

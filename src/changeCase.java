@@ -12,10 +12,10 @@ public class changeCase {
             }
         }
         System.out.println(newStr);
-        reverseSentense(newStr);
+        reverseSentence(newStr);
     }
 
-    public static void reverseSentense(StringBuffer buffer) {
+    public static void reverseSentence(StringBuffer buffer) {
         String S = buffer.toString();
         StringBuilder resultString = new StringBuilder();
 

@@ -11,8 +11,6 @@ public class FindNumberOfCharsInString {
     {
 
         S=S+".";
-        boolean IsRepeated=false;
-        boolean IsRepeatedEalier=false;
         int count = 1;
 
         for(int i =0;i<S.length()-1;i++)
