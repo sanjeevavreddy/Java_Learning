@@ -1,6 +1,3 @@
-import java.lang.reflect.Array;
-import java.util.ArrayList;
-import java.util.List;
 
 public class PascalTriangle {
 
@@ -32,9 +29,6 @@ public class PascalTriangle {
     }
 
     public static void main(String[] args) {
-
-//        int a[]={1};
-//        nextLineInPascal(a);
 
         generate(4);
     }
