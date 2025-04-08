@@ -4,8 +4,8 @@ import java.util.Set;
 public class TripletSeq {
 
     public static void main(String[] args) {
-//        System.out.println(increasingTriplet(new int[]{1, 2, 3, 4, 5}));
-        System.out.println(Integer.MAX_VALUE);
+        System.out.println(increasingTriplet(new int[]{1, 2, 3, 4, 5}));
+//        System.out.println(Integer.MAX_VALUE);
     }
 
     public static boolean increasingTriplet(int[] nums) {

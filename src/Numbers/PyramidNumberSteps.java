@@ -1,4 +1,4 @@
-//input 5
+package Numbers;//input 5
 //output
 //1
 //2 6
@@ -10,7 +10,7 @@
 
 public class PyramidNumberSteps {
     public static void main(String[] args) {
-        int a = 4;
+        int a = 10;
         for (int i = 1; i <= a; i++) {
             int x = i, y = a;
             for (int j = 1; j <= i; j++) {
